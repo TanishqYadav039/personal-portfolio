@@ -1,7 +1,7 @@
 import React from 'react'
 import { NavHashLink } from 'react-router-hash-link'
 import { useLocation } from 'react-router'
-import Logo from '../../assets/logoblack.jpg'
+import Logo from '../../assets/Logoblack.jpg'
 import { FaListUl } from "react-icons/fa";
 import { useState } from 'react'
 import { RxCross1 } from "react-icons/rx";
