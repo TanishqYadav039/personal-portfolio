@@ -1,0 +1,10 @@
+@import 'tailwindcss';
+
+body::-webkit-scrollbar{
+  display: none;
+}
+
+body{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
