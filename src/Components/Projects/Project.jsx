@@ -1,6 +1,8 @@
 import React from 'react'
 import Card from '../Cards/Card'
 import ProjectImg1 from '../../assets/portfolioimg.png'
+import ProjectImg3 from '../../assets/spotifyClone.png'
+import ProjectImg2 from '../../assets/TodoApp.png'
 
 const Project = () => {
     return (
@@ -21,19 +23,24 @@ const Project = () => {
                     />
                     
                     <Card 
+
+                    projectimg={ProjectImg2}
+                
                     className={'w-full h-[400px] 2xl:h-[600px] bg-[#90e0ef] px-3 flex flex-col justify-between items-center py-2 font-bold my-4 md:w-[350px] 2xl:w-[500px] row-start-1 rounded-xl shadow-xl cursor-pointer hover:scale-102 transition duration-300 linear hover:shadow-cyan-400'}
                     
-                    projectName={'Project-2'}
+                    projectName={'To-Do App'}
 
-                    description={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt quibusdam vitae, magni eius eos quia quisquam nemo ad delectus dolor.'}
+                    description={'To-do app built with Reactjs and Tailwindcss where i can add react hooks, context-api and localstorage to persist my theme and task even after refreshing page'}
                     />
 
                     <Card 
+                    projectimg={ProjectImg3}
+
                     className={'w-full h-[400px] 2xl:h-[600px] bg-[#90e0ef] px-3 flex flex-col justify-between items-center py-2 font-bold my-4 md:w-[350px] 2xl:w-[500px] row-start-1 rounded-xl shadow-xl cursor-pointer hover:scale-102 transition duration-300 linear hover:shadow-cyan-400'}
 
-                    projectName={'Project-3'}
+                    projectName={'Spotify-Clone'}
 
-                    description={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt quibusdam vitae, magni eius eos quia quisquam nemo ad delectus dolor.'}
+                    description={'Spotify Clone with HTML, CSS and JavaScript where I have focused to built responsive layout and scalable design.'}
                     />
                     
 
