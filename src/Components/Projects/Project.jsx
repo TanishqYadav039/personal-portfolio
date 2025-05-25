@@ -26,7 +26,7 @@ const Project = () => {
 
                     projectimg={ProjectImg2}
                 
-                    className={'w-full h-[400px] 2xl:h-[600px] bg-[#90e0ef] px-3 flex flex-col justify-between items-center py-2 font-bold my-4 md:w-[350px] 2xl:w-[500px] row-start-1 rounded-xl shadow-xl cursor-pointer hover:scale-102 transition duration-300 linear hover:shadow-cyan-400'}
+                    className={'w-full h-[400px] 2xl:h-[600px] bg-[#90e0ef] px-3 flex flex-col justify-between items-center py-2 font-bold my-4 md:w-[350px] 2xl:w-[500px] row-start-2 md:row-start-1 md:grid-cols-2 rounded-xl shadow-xl cursor-pointer hover:scale-102 transition duration-300 linear hover:shadow-cyan-400'}
                     
                     projectName={'To-Do App'}
 
@@ -36,7 +36,7 @@ const Project = () => {
                     <Card 
                     projectimg={ProjectImg3}
 
-                    className={'w-full h-[400px] 2xl:h-[600px] bg-[#90e0ef] px-3 flex flex-col justify-between items-center py-2 font-bold my-4 md:w-[350px] 2xl:w-[500px] row-start-1 rounded-xl shadow-xl cursor-pointer hover:scale-102 transition duration-300 linear hover:shadow-cyan-400'}
+                    className={'w-full h-[400px] 2xl:h-[600px] bg-[#90e0ef] px-3 flex flex-col justify-between items-center py-2 font-bold my-4 md:w-[350px] 2xl:w-[500px] row-start-3 md:row-start-2 md:col-span-2 xl:row-start-1 xl:grid-col-3 rounded-xl shadow-xl cursor-pointer hover:scale-102 transition duration-300 linear hover:shadow-cyan-400'}
 
                     projectName={'Spotify-Clone'}
 

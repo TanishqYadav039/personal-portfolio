@@ -15,7 +15,7 @@ const Skill = () => {
         <>
             <div className='w-full h-[100dvh] pt-10 flex justify-center 2xl:h-screen items-center 2xl:justify-start text-3xl 2xl:text-5xl font-bold flex-col italic'>
                 <h2 className='w-full h-[40px] mt-25 md:mt-18 xl:mt-10 mb-4 xl:mb-4 flex justify-center items-center'>Skills</h2>
-                <div className='w-full xl:w-[95%] 2xl:h-[80%] h-[90vh] px-2 grid justify-center items-center  grid-cols-1 sm:grid-cols-3 lg:grid-cols-2 grid-rows-3 gap-2 2xl:gap-8'>
+                <div className='w-full xl:w-[95%] 2xl:h-[80%] h-[90vh] md:h-screen px-2 grid justify-center items-center  grid-cols-1 sm:grid-cols-3 lg:grid-cols-2 grid-rows-3 gap-2 2xl:gap-8'>
                     <div className='w-full h-[150px] 2xl:h-full flex flex-col items-center gap-3 bg-[#90e0ef]  row-start-1 rounded-md shadow-xl p-2'>
                         <h1>Languages</h1>
                         <div className='w-full px-3'>
